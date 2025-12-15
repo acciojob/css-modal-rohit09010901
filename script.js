@@ -1,5 +1,5 @@
 const openBtn = document.getElementById("openModal");
-const modal = document.getElementById("modal");
+const modal = document.querySelector(".modal");
 const closeBtn = document.querySelector(".close-modal");
 
 openBtn.onclick = () => {
